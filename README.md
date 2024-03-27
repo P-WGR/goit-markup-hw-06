@@ -1,2 +1,1 @@
-goit-markup-hw-04
-GoiT - homework
+goit-markup-hw-06 GoiT - homework
