@@ -1058,6 +1058,14 @@ color: #2e2f42;
     }
 }
 
+/* HIDE menu-item */
+
+@media (max-width: 768px) {
+    .menu-item {
+        display: none;
+    }
+}
+
 /* ================================DESKTOP================================== */
 @media (min-width: 1158px) {
     .container {
