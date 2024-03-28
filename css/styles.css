@@ -339,8 +339,6 @@ section {
     overflow: hidden;
 }
 
-/* --- our team section 3 --- */
-
 .person-list {
     display: flex;
     flex-wrap: wrap;
@@ -441,8 +439,6 @@ section {
 .portfolio-media:focus .inner-text {
     transform: translateY(0%);
 }
-
-/* --- section 3 section 4 --- */
 
 .list-titles {
 color: #2e2f42;
@@ -882,7 +878,7 @@ color: #2e2f42;
     }
 
     /* TABLET - HEADER */
-    .address-list {
+    .address-link {
         display: flex;
         flex-wrap: wrap;
         gap: 12px;
