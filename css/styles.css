@@ -317,6 +317,7 @@ section {
 
 .goals {
     font-weight: 500;
+    margin-top: 8px;
 }
 
 .visually-hidden {
@@ -364,6 +365,7 @@ section {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-top: 8px;
 }
 
 .icon-set-sm {
@@ -443,13 +445,14 @@ color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin: 0 auto;
+    
 }
 
 .list-titles.mobile-h2 {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .des-tex {
@@ -467,12 +470,9 @@ color: #2e2f42;
     margin-bottom: 72px;
 }
 
-/* --- footer dark end --- */
-
 .container-footer {
     flex-direction: column;
     align-items: center;
-    gap: 72px;
 }
 
 .logo-bottom {
@@ -529,7 +529,7 @@ color: #2e2f42;
     padding-left: 16px;
     border: 1px solid #fff;
     border-radius: 4px;
-    width: 264px;
+    width: 288px;
     height: 40px;
     color: #fff;
     font-family: "Roboto", sans-serif;
@@ -554,7 +554,7 @@ color: #2e2f42;
 }
 
 .subscribe {
-    margin: 0;
+    margin-left: auto;
 }
 
 .subscribe-form {
@@ -613,8 +613,6 @@ color: #2e2f42;
 .icon-socials {
     fill: #f4f4fd;
 }
-
-/* --- modal --- */
 
 .backdrop {
     position: fixed;
@@ -741,7 +739,6 @@ color: #2e2f42;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    /* font-size: 18px; */
     line-height: 1.17;
     letter-spacing: 0.04em;
     outline: transparent;
@@ -958,6 +955,7 @@ color: #2e2f42;
         font-size: 36px;
         font-weight: 700;
         text-align: left;
+        margin-bottom: 8px;
     }
 
     /* TABLET - 3 */
@@ -991,7 +989,6 @@ color: #2e2f42;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        column-gap: 24px;
         row-gap: 72px;
         align-items: baseline;
         max-width: 530px;
@@ -1035,6 +1032,7 @@ color: #2e2f42;
 
     .input-dark {
         opacity: 0.5;
+        width: 264px;
     }
 
     .input-dark::placeholder {
