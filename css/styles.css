@@ -1055,7 +1055,7 @@ color: #2e2f42;
 
 /* HIDE menu-item */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .menu-item {
         display: none;
     }
