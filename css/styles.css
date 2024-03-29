@@ -1043,7 +1043,11 @@ color: #2e2f42;
         min-height: 584px;
     }
 }
-
+@media (min-width: 1158px) {
+    .subscribe {
+        margin-left: 80px;
+    }
+}
 @media (min-width: 768px) and (min-resolution: 192dpi) {
     .section-one {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -1051,8 +1055,6 @@ color: #2e2f42;
             url(../images/people-office-tablet@2x.jpg);
     }
 }
-
-/* HIDE menu-item */
 
 @media (max-width: 767px) {
     .menu-item {
@@ -1071,6 +1073,8 @@ color: #2e2f42;
         margin-top: 16px;
     }
 }
+
+
 /* ================================DESKTOP================================== */
 @media (min-width: 1158px) {
     .container {
@@ -1179,7 +1183,6 @@ color: #2e2f42;
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: baseline;
-        gap: 80px;
     }
 
     .footer-background {
