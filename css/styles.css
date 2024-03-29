@@ -447,19 +447,17 @@ color: #2e2f42;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
-    
 }
 
 .list-titles.mobile-h2 {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 8px;
 }
 
-.des-tex {
+.des-text {
     text-align: left;
+    margin-top: 8px;
 }
 
 .header-titles {
@@ -561,7 +559,7 @@ color: #2e2f42;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    gap: 16px;
+    /* gap: 16px; */
 }
 
 .subscribe-btn {
@@ -878,6 +876,7 @@ color: #2e2f42;
         flex-wrap: wrap;
         gap: 12px;
         justify-content: flex-end;
+        margin: 12px;
     }
 
     .header-left {
@@ -1061,6 +1060,17 @@ color: #2e2f42;
     }
 }
 
+@media (max-width: 767px) {
+    .container-footer {
+            gap: 72px;
+        }
+}
+
+@media (max-width: 767px) {
+    .subscribe-btn {
+        margin-top: 16px;
+    }
+}
 /* ================================DESKTOP================================== */
 @media (min-width: 1158px) {
     .container {
@@ -1169,6 +1179,7 @@ color: #2e2f42;
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: baseline;
+        gap: 80px;
     }
 
     .footer-background {
