@@ -12,3 +12,14 @@
 //         refs.modal.classList.toggle("is-hidden");
 //     }
 // })();
+
+const xButton = document.querySelector('.x-button');
+const modal = document.querySelector('.modal');
+xButton.addEventListener('click', () => {
+    modal.classList.add('is-closed');
+});
+window.addEventListener('click', (event) => {
+    if (event.target === modal) {
+  modal.classList.add('is-closed');
+    }
+});
